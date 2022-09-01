@@ -10,6 +10,7 @@ defmodule TestAssignment3.Application do
     children = [
       # Starts a worker by calling: TestAssignment3.Worker.start_link(arg)
       # {TestAssignment3.Worker, arg}
+      User.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
